@@ -17,6 +17,13 @@ body{
     padding: 20px;
 }
 
+.blueButton {
+    background-color:blue;
+    color:white;
+    width:50%;
+    font-size: large;
+}
+
 .column {
     float: left;
     width: 50%;
@@ -27,8 +34,16 @@ body{
     content: "";
     display: table;
     clear: both;
+    padding-bottom: 5%;
+  }
+
+  .row-border:after {
+    content: "";
+    display: table;
+    clear: both;
+    border: 4px black;
   }
 
 .dropdown {
-    width: 80%;
+    width: 100%;
 }
