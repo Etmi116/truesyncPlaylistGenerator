@@ -10,11 +10,12 @@
 				</ul>
 			</div>
 		@endif
+		<!--
 		<div class="bodybox">
 			<p>Edit a previously created dynamic playlist to the system so that you can assign it to a player.</p>
 			<h3>Standard Content</h3>
 			<h3>Content Type</h3>
-			<!-- Form to add content type to a playlist -->
+			
 			<form method="post" action="" class="row">
 				@csrf
 				<div class="column">
@@ -30,7 +31,7 @@
 				</div>
 			</form>
 			<div></div>
-			<!-- Loops through small database to display chosen content types -->
+			
 			@foreach($data as $row)
 			<div class="row-border">
 				<div class="column">
@@ -42,4 +43,6 @@
 			</div>
 			@endforeach
 		</div>
+		-->
+		<livewire:playlist-params />
 </body>
