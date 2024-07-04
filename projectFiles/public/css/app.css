@@ -24,9 +24,20 @@ body{
     font-size: large;
 }
 
+.redButton {
+  background-color:red;
+  color:white;
+  width:25%;
+  font-size: large;
+}
+
 .column {
     float: left;
     width: 50%;
+  }
+
+  .columnB {
+    float: left;
   }
   
   /* Clear floats after the columns */
@@ -41,9 +52,18 @@ body{
     content: "";
     display: table;
     clear: both;
-    border: 4px black;
+    border: 12px black;
+  }
+
+  .errorMessage {
+    color:blue;
   }
 
 .dropdown {
     width: 100%;
+}
+
+.wide-text-input{
+  width:80%;
+  font-size: large;
 }
